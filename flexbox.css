@@ -1,0 +1,8 @@
+.whole {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card {
+  width: 300px;
+  border-style: groove;
+}
