@@ -18,7 +18,7 @@ body {
   text-align: center;
   margin-bottom: 2rem;
   border: 0.2rem solid;
-  padding: 10px;
+  padding: 1rem;
   box-shadow: 0.5rem 1rem 0.8rem #888888;
   box-sizing: content-box;
 }
@@ -27,61 +27,61 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
-  background-size: 350px;
+  background-size: 20rem;
 }
 .charizard {
   background-image: url(img/charizard.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
-  background-size: 350px;
+  background-size: 20rem;
 }
 .onix {
   background-image: url(img/onix.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
-  background-size: 350px;
+  background-size: 20rem;
 }
 .mewtwo {
   background-image: url(img/mewtwo.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
 .eevee {
   background-image: url(img/eevee.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
 .gengar {
   background-image: url(img/gengar.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
 .mew {
   background-image: url(img/mew.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
 .snorlax {
   background-image: url(img/snorlax.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
 .lapras {
   background-image: url(img/lapras.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
-  background-size: 350px;
+  height: 30rem;
+  background-size: 20rem;
 }
