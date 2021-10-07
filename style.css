@@ -22,66 +22,7 @@ body {
   box-sizing: content-box;
   transition: all 0.3s;
 }
-.pika {
-  background-image: url(img/pika.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-  transform: scale(1);
-  animation: pulse 2s infinite;
-}
-.charizard {
-  background-image: url(img/charizard.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.onix {
-  background-image: url(img/onix.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.mewtwo {
-  background-image: url(img/mewtwo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.eevee {
-  background-image: url(img/eevee.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.gengar {
-  background-image: url(img/gengar.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.mew {
-  background-image: url(img/mew.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.snorlax {
-  background-image: url(img/snorlax.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
-  background-size: 20rem;
-}
-.lapras {
-  background-image: url(img/lapras.jpg);
+.picture {
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
@@ -103,6 +44,7 @@ body {
   vertical-align: middle;
   transition: color 0.25s;
   opacity: 0.5;
+  margin-top: 1rem;
 }
 .click::before,
 .click::after {
@@ -138,13 +80,12 @@ body {
   transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s,
     height 0.25s ease-out 0.75s;
 }
-.pulse .pika:hover{ 
-  animation: pulse 1s infinite;
+.picture:hover{ 
+  animation: pulse 2s infinite;
   animation-timing-function: linear;   
 }
-
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.1);
+  50% { transform: scale(1.05);
   100% { transform: scale(1); }
   }
