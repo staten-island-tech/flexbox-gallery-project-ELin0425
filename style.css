@@ -12,8 +12,6 @@ body {
 .title {
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
-  margin-left: 34rem;
-  margin-right: 34rem;
 }
 .card {
   width: 26%;
@@ -25,11 +23,12 @@ body {
   box-shadow: 0.5rem 1rem 0.8rem #888888;
   box-sizing: content-box;
   transition: all 0.3s;
+  overflow: hidden;
 }
+
 .picture {
-  background-repeat: no-repeat;
-  background-position: center;
   height: 30rem;
+  max-width: 90%;
 }
 .card:hover {
   transform: scale(0.9);
@@ -111,5 +110,15 @@ body {
     transform: translateX(0);
   }
 }
-.i {
+@media (max-width: 1300px) {
+  .card {
+    width: 40%;
+  }
+}
+@media (max-width: 850px) {
+  .card {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
 }
