@@ -121,4 +121,7 @@ body {
   }
 }
 @media (max-width: 500px) {
+  .picture {
+    height: 20rem;
+  }
 }
